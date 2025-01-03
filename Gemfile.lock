@@ -299,6 +299,10 @@ GEM
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
     stringio (3.1.2)
+    swagger-blocks (3.0.0)
+    swagger-docs (0.2.9)
+      activesupport (>= 3)
+      rails (>= 3)
     thor (1.3.2)
     thruster (0.1.9)
     thruster (0.1.9-x86_64-linux)
@@ -351,6 +355,8 @@ DEPENDENCIES
   solid_cache
   solid_queue
   stimulus-rails
+  swagger-blocks
+  swagger-docs
   thruster
   turbo-rails
   tzinfo-data

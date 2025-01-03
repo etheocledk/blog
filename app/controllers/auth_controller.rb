@@ -1,7 +1,7 @@
 class AuthController < ApplicationController
   skip_before_action :verify_authenticity_token
 
-  def register
+  def signup
     begin
       required_params = [ :email, :password, :password_confirmation, :fullname ]
 
@@ -26,5 +26,20 @@ class AuthController < ApplicationController
     rescue StandardError => e
       render json: { success: false, message: "Une erreur est survenue : #{e.message}" }, status: :internal_server_error
     end
+  end
+
+  def validateEmail
+  end
+
+  def login
+  end
+
+  def logout
+  end
+
+  def requestResetPassword
+  end
+
+  def changePassword
   end
 end

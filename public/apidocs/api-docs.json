@@ -1,0 +1,12 @@
+{
+  "apiVersion": "v1",
+  "swaggerVersion": "1.2",
+  "basePath": "http://localhost:3000",
+  "apis": [],
+  "authorizations": null,
+  "info": {
+    "title": "My API",
+    "description": "My API Documentation",
+    "contact": "support@myapi.com"
+  }
+}
